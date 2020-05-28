@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from "./Header";
 import Technologies from "./Technologies";
 
 const App = () => {
     return (
         <div>
-            <Technologies />
+            <Header/>
+            <Technologies/>
         </div>
     );
 };
