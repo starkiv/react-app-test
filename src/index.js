@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Technologies from "./Technologies";
 
 const App = () => {
     return (
-        <div>123</div>
+        <div>
+            <Technologies />
+        </div>
     );
 };
+
 
 ReactDOM.render(<App/>, document.getElementById('root'));
